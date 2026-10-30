@@ -1,0 +1,8 @@
+{
+  "max_size": 0,
+  "max_fps": 90,
+  "bitrate": "64M",
+  "stay_awake": false,
+  "screen_off": false,
+  "audio": true
+}
