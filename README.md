@@ -17,7 +17,7 @@ The script shows a pairing QR code in your terminal. You scan it from Android's 
 - **Saved settings**: your choices are remembered between runs
 - **Colored console** with a logo, and a timestamped log of every action
 - **Plain-text log file** (`phone_mirror.log`) with a session summary at the end
-- Works on **Windows, macOS and Linux**
+- Works on **Windows (tested), macOS and Linux (should work)**
 
 ## Requirements
 
@@ -32,8 +32,8 @@ The script shows a pairing QR code in your terminal. You scan it from Android's 
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/GhFranNgy/Screen_QR_Francisco_Nguyen.git
+cd Screen_QR_Francisco_Nguyen
 pip install zeroconf "qrcode[pil]"
 ```
 
@@ -63,7 +63,7 @@ adb version
 
 > The code must be scanned from the Wireless debugging screen. A normal camera app or Google Lens can't use it, because Android only accepts pairing from its own settings.
 
-After a successful pairing, some devices remember your laptop, so later you may only need to switch Wireless debugging on.
+The script currently shows a new QR code on every run and waits for a scan.
 
 ## Settings menu
 
