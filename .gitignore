@@ -179,3 +179,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Phone Mirror runtime generated files
+phone_mirror.log
+phone_mirror_qr.png
+phone_mirror_settings.json
